@@ -1,0 +1,25 @@
+### ✍️ Gradient Descent Algorithm – 6-Mark Summary
+
+- **Definition**: Gradient Descent is an optimization algorithm used to minimize a cost function by iteratively adjusting model parameters.
+  
+- **Objective**: It finds the values of parameters (like weights in neural networks) that reduce the error between predicted and actual outputs.
+
+- **Working Principle**:
+  - Compute the gradient (partial derivatives) of the cost function with respect to each parameter.
+  - Update parameters in the direction opposite to the gradient to reduce the cost.
+
+- **Update Rule**:
+  $$
+  \theta = \theta - \alpha \cdot \nabla J(\theta)
+  $$
+  Where:
+  - \( \theta \) = parameters
+  - \( \alpha \) = learning rate
+  - \( \nabla J(\theta) \) = gradient of the cost function
+
+- **Types**:
+  - **Batch Gradient Descent**: Uses the entire dataset.
+  - **Stochastic Gradient Descent (SGD)**: Uses one sample at a time.
+  - **Mini-Batch Gradient Descent**: Uses small batches for balance.
+
+- **Challenges**: Choosing the right learning rate, avoiding local minima, and handling noisy gradients in SGD.
