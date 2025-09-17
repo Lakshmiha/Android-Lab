@@ -1,0 +1,54 @@
+In deep learning, the **biological neuron** serves as the inspiration for the **artificial neuron**, which is the fundamental building block of neural networks. Let’s break down the biological model and how it maps to deep learning concepts:
+
+---
+
+### 🧠 Biological Neuron: Key Components
+
+A biological neuron consists of:
+
+- **Dendrites**: Receive signals from other neurons.
+- **Cell Body (Soma)**: Processes incoming signals.
+- **Axon**: Transmits the signal to other neurons.
+- **Synapse**: The junction where signals pass to the next neuron, often chemically.
+
+These neurons communicate via **electrical impulses** and **chemical neurotransmitters**, forming complex networks in the brain.
+
+---
+
+### 🤖 Artificial Neuron in Deep Learning
+
+Artificial neurons mimic this behavior in a simplified, mathematical way:
+
+| Biological Component | Artificial Equivalent | Description |
+|----------------------|------------------------|-------------|
+| Dendrites            | Inputs (features)      | Data fed into the neuron (e.g., pixel values in an image) |
+| Synapse              | Weights                | Determines the importance of each input |
+| Soma (Cell Body)     | Summation + Bias       | Adds weighted inputs and bias to compute a total signal |
+| Axon                 | Activation Function    | Applies a non-linear function to decide the output |
+
+---
+
+### 🧮 Mathematical Model
+
+The artificial neuron computes:
+
+$$
+y = f\left(\sum_{i=1}^{n} w_i x_i + b\right)
+$$
+
+Where:
+- \( x_i \) = input features
+- \( w_i \) = weights
+- \( b \) = bias
+- \( f \) = activation function (e.g., sigmoid, ReLU)
+- \( y \) = output
+
+This output is then passed to other neurons in the next layer, just like biological neurons pass signals through synapses.
+
+---
+
+### 🧬 Why This Matters
+
+The goal isn’t to replicate the brain exactly, but to **simulate learning and decision-making**. Artificial neurons are fast, scalable, and surprisingly powerful—even though they’re much simpler than their biological counterparts.
+
+Want to dive deeper into how these neurons form different types of networks like CNNs or RNNs? I can walk you through that next.
